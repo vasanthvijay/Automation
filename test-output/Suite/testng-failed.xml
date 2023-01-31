@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Single_invite(failed)">
+    <classes>
+      <class name="Admin.Single_Invite">
+        <methods>
+          <include name="ReadDatacampusdata"/>
+          <include name="Close_browser"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- Admin.Single_Invite -->
+    </classes>
+  </test> <!-- Single_invite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

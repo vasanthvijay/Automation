@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-31T20:41:51 IST" name="Suite" finished-at="2023-01-31T20:42:17 IST" duration-ms="25689">
+    <groups>
+    </groups>
+    <test started-at="2023-01-31T20:41:51 IST" name="Login" finished-at="2023-01-31T20:41:56 IST" duration-ms="4454">
+      <class name="Admin.Login">
+        <test-method signature="Admin_login_Credentials()[pri:0, instance:Admin.Login@1fa268de]" started-at="2023-01-31T20:41:51 IST" name="Admin_login_Credentials" finished-at="2023-01-31T20:41:55 IST" duration-ms="4379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_login_Credentials -->
+      </class> <!-- Admin.Login -->
+    </test> <!-- Login -->
+    <test started-at="2023-01-31T20:41:56 IST" name="invite_students" finished-at="2023-01-31T20:42:04 IST" duration-ms="8695">
+      <class name="Admin.Manage_Students">
+        <test-method signature="Manage_students_Module()[pri:0, instance:Admin.Manage_Students@4ec4f3a0]" started-at="2023-01-31T20:41:56 IST" name="Manage_students_Module" finished-at="2023-01-31T20:42:02 IST" duration-ms="6545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_students_Module -->
+        <test-method signature="Invite_Function()[pri:1, instance:Admin.Manage_Students@4ec4f3a0]" started-at="2023-01-31T20:42:02 IST" name="Invite_Function" finished-at="2023-01-31T20:42:04 IST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invite_Function -->
+      </class> <!-- Admin.Manage_Students -->
+    </test> <!-- invite_students -->
+    <test started-at="2023-01-31T20:42:04 IST" name="Single_invite" finished-at="2023-01-31T20:42:17 IST" duration-ms="12502">
+      <class name="Admin.Single_Invite">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:Admin.Single_Invite@747ddf94]" started-at="2023-01-31T20:41:41 IST" name="launch_browser" finished-at="2023-01-31T20:41:51 IST" duration-ms="10284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="ReadDatacampusdata()[pri:0, instance:Admin.Single_Invite@747ddf94]" started-at="2023-01-31T20:42:04 IST" name="ReadDatacampusdata" finished-at="2023-01-31T20:42:17 IST" duration-ms="12495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadDatacampusdata -->
+        <test-method is-config="true" signature="Close_browser()[pri:0, instance:Admin.Single_Invite@747ddf94]" started-at="2023-01-31T20:42:17 IST" name="Close_browser" finished-at="2023-01-31T20:42:20 IST" duration-ms="3579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_browser -->
+      </class> <!-- Admin.Single_Invite -->
+    </test> <!-- Single_invite -->
+  </suite> <!-- Suite -->
+</testng-results>
