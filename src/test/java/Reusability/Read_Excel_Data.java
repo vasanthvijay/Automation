@@ -38,7 +38,6 @@ public class Read_Excel_Data {
 		FileInputStream excel= new FileInputStream(exceldata);
         XSSFWorkbook book = new XSSFWorkbook(excel);
         sheets=book.getNumberOfSheets();
-        System.out.println(sheets);
         for(int i=0;i<sheets;i++){
         	sheet=book.getSheetAt(i);
         	rows=sheet.getLastRowNum();
@@ -63,22 +62,16 @@ public class Read_Excel_Data {
   		}
 	}
 	public static void ReadDatacampusdata(String exceldata1) throws Exception {
-		System.out.println("enter");
 		DataFormatter formatter = new DataFormatter();
 		FileInputStream excel= new FileInputStream(exceldata1);
         XSSFWorkbook book1 = new XSSFWorkbook(excel);
         sheets=book1.getNumberOfSheets();
-        System.out.println(sheets);
         for(int i=1;i<sheets;i++) {
         	sheet=book1.getSheetAt(i);
-        	System.out.println("sheet: "+sheet);
         	rows=sheet.getLastRowNum();
-        	System.out.println("row: "+rows);
-        	//System.out.println(rows);
         	for(int j=0;j<=rows;j++) {
         		row=sheet.getRow(j);
         		column=row.getLastCellNum();
-        		//System.out.println(column);
         		for(int k=0;k<column;k++) {
         			cell=row.getCell(k);
         			if(k==0) {
@@ -99,7 +92,6 @@ public class Read_Excel_Data {
         }
         }
         	for(int z=0;z<campusdata1.size();z++) {
-        		System.out.println("file");
         		Single_Invite.Student_Single_Invite(campusdata1.get(z),campusdata2.get(z),campusdata3.get(z),campusdata4.get(z));
         	}
  }

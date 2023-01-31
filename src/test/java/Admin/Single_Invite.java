@@ -17,7 +17,6 @@ public class Single_Invite extends Launch_Browser{
 	
 	@Test(priority = 0)
     public static void ReadDatacampusdata() throws Exception {
-		System.out.println("hello");
 		
 		Reusability.Read_Excel_Data.ReadDatacampusdata("../ai.neopat/File/login_Details.xlsx");
 	}
@@ -25,7 +24,6 @@ public class Single_Invite extends Launch_Browser{
 	
 	public static void Student_Single_Invite(String campusdata1, String campusdata2, String campusdata3, String campusdata4) throws Exception {
 		
-		System.out.println("log");
 		PageFactory.initElements(driver, Invite_Page.class);
 		
 		Invite_Page.Select_Campus.click();
